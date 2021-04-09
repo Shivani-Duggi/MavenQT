@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+  <test name="Test1">
+    <classes>
+      <class name="TestPackage.QTTestCase"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+    <classes>
+      <class name="TestPackage.titleverificationtestcase"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test3">
+    <classes>
+       <class name="TestPackage.colorstestcase"/>
+     </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Test4">
+    <classes>
+       <class name="TestPackage.activitypagetestcase"/>
+     </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test5">
+    <classes>
+      <class name="TestPackage.sendsinglekudostestcase"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test6">
+    <classes>
+      <class name="TestPackage.sendmultiplekudostestcase"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test7">
+    <classes>
+     <class name="TestPackage.deselectkudotype"/>
+     </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test8">
+    <classes>
+      <class name="TestPackage.searchkudostestcase"/>
+     </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Test9">
+    <classes>
+     <class name="TestPackage.kudosfrommetestcase"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test10">
+    <classes>
+      <class name="TestPackage.kudostometestcases"/>
+     </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Test11">
+    <classes>
+     <class name="TestPackage.recentcontactstestcase"/>
+     </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

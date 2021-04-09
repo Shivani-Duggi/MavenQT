@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="TestPackage.QTTestCase">
+        <methods>
+          <include name="bsuite"/>
+          <include name="basePageNavigation" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- TestPackage.QTTestCase -->
+      <class name="pageobjects.color">
+        <methods>
+          <include name="colours"/>
+        </methods>
+      </class> <!-- pageobjects.color -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
